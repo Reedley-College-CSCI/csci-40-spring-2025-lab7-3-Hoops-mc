@@ -10,7 +10,7 @@ using namespace std;
 // It should contain two integer fields: day and temperature.
 struct TemperatureRecord {
     int day;
-    float temp;
+    int temp;
 };
 
 //Declared array of TemperatureRecord in global section
@@ -29,7 +29,7 @@ double findAverage(const ???);
 int main() {
     // TODO: Step 2 - Declare an array of TemperatureRecord structs (MAX_DAYS size)
     TemperatureRecord tempRecord[MAX_DAYS];
-    
+
     int size = 0;  // Actual number of records read
 
     // TODO: Step 3 - Call readTemperatures() to load data from file
