@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Octavio\\Desktop\\VS_Projects\\Lab7_3_Github\\Lab7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C89D9E70-4147-414A-B2A1-C998630F2E00}|Lab7\\Lab7.vcxproj|C:\\Users\\Octavio\\Desktop\\VS_Projects\\Lab7_3_Github\\array_of_structs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "array_of_structs.cpp",
+              "DocumentMoniker": "C:\\Users\\Octavio\\Desktop\\VS_Projects\\Lab7_3_Github\\array_of_structs.cpp",
+              "RelativeDocumentMoniker": "..\\array_of_structs.cpp",
+              "ToolTip": "C:\\Users\\Octavio\\Desktop\\VS_Projects\\Lab7_3_Github\\array_of_structs.cpp",
+              "RelativeToolTip": "..\\array_of_structs.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-13T05:51:05.179Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

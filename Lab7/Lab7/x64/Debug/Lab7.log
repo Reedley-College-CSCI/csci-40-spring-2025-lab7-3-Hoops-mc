@@ -1,0 +1,46 @@
+﻿  array_of_structs.cpp
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(23,24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(23,30): error C2143: syntax error: missing ')' before '?'
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(23,30): error C2143: syntax error: missing ';' before '?'
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(23,30): error C2059: syntax error: '?'
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(23,33): error C2059: syntax error: ')'
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(24,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(24,33): error C2143: syntax error: missing ')' before '?'
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(24,33): error C2143: syntax error: missing ';' before '?'
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(24,33): error C2059: syntax error: '?'
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(24,36): error C2059: syntax error: ')'
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(25,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(25,33): error C2143: syntax error: missing ')' before '?'
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(25,33): error C2143: syntax error: missing ';' before '?'
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(25,33): error C2059: syntax error: '?'
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(25,36): error C2059: syntax error: ')'
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(26,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(26,26): error C2143: syntax error: missing ')' before '?'
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(26,26): error C2143: syntax error: missing ';' before '?'
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(26,26): error C2059: syntax error: '?'
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(26,29): error C2059: syntax error: ')'
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(38,5): error C2660: 'printTemperatures': function does not take 2 arguments
+      C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(23,6):
+      see declaration of 'printTemperatures'
+      C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(38,5):
+      while trying to match the argument list '(TemperatureRecord [31], int)'
+  
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(42,35): error C2660: 'findMin': function does not take 2 arguments
+      C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(24,19):
+      see declaration of 'findMin'
+      C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(42,35):
+      while trying to match the argument list '(TemperatureRecord [31], int)'
+  
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(43,35): error C2660: 'findMax': function does not take 2 arguments
+      C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(25,19):
+      see declaration of 'findMax'
+      C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(43,35):
+      while trying to match the argument list '(TemperatureRecord [31], int)'
+  
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(44,26): error C2660: 'findAverage': function does not take 2 arguments
+      C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(26,8):
+      see declaration of 'findAverage'
+      C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(44,26):
+      while trying to match the argument list '(TemperatureRecord [31], int)'
+  
+C:\Users\Octavio\Desktop\VS_Projects\Lab7_3_Github\array_of_structs.cpp(133,31): warning C4244: '+=': conversion from 'const float' to 'int', possible loss of data
