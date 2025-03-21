@@ -1,6 +1,4 @@
-
 //Octavio Moreno
-
 
 #include <iostream>
 #include <fstream>
@@ -15,9 +13,6 @@ struct TemperatureRecord {
     int temp;
 };
 
-//Declared array of TemperatureRecord in global section
-TemperatureRecord tempRecord;
-
 // Constants
 const int MAX_DAYS = 31;
 
@@ -26,7 +21,7 @@ void readTemperatures(TemperatureRecord tempRecord[], int& size); // TODO: Fix t
 void printTemperatures(const TemperatureRecord tempRecord[], int size);
 TemperatureRecord findMin(const ???);
 TemperatureRecord findMax(const ???);
-double findAverage(const ???);
+double findAverage(const TemperatureRecord tempRecord[], int size);
 
 int main() {
     // TODO: Step 2 - Declare an array of TemperatureRecord structs (MAX_DAYS size)
@@ -41,7 +36,9 @@ int main() {
     printTemperatures(tempRecord, size);
 
     // TODO: Step 5 - Compute and display min, max, and average temperature
-
+    
+    cout << "Average Temperature: " << averageTemp << " Celcius\n";
+    
     return 0;
 }
 
@@ -87,3 +84,18 @@ void printTemperatures(const TemperatureRecord tempRecord[], int size)
 
 // TODO: Step 10 - Implement findAverage()
 // Compute and return the average temperature
+double findAverage(const TemperatureRecord tempRecord[], int size)
+{
+    if (size == 0)
+    {
+        return 0.0;
+    }
+
+    int total = 0;
+    for (int i = 0; i < size; ++i)
+    {
+        total += tempRecord[i].temp;
+    }
+
+    return static_cast<double>(total) / size;
+}
