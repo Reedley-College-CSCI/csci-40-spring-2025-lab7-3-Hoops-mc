@@ -19,8 +19,8 @@ const int MAX_DAYS = 31;
 // Function Prototypes
 void readTemperatures(TemperatureRecord tempRecord[], int& size); // TODO: Fix the parameters
 void printTemperatures(const TemperatureRecord tempRecord[], int size);
-TemperatureRecord findMin(const ???);
-TemperatureRecord findMax(const ???);
+TemperatureRecord findMin(const TemperatureRecord tempRecord[], int size);
+TemperatureRecord findMax(const TemperatureRecord tempRecord[], int size);
 double findAverage(const TemperatureRecord tempRecord[], int size);
 
 int main() {
@@ -37,7 +37,17 @@ int main() {
 
     // TODO: Step 5 - Compute and display min, max, and average temperature
     
-    cout << "Average Temperature: " << averageTemp << " Celcius\n";
+    TemperatureRecord minRecord = findMin(tempRecord, size);
+    TemperatureRecord maxRecord = findMax(tempRecord, size);
+    double averageTemp = findAverage(tempRecord, size);
+                                                                                             
+    cout << "\nTemperature Records\n"
+        << "----------------------\n"
+        << "Minimum Temperature: Day " << minRecord.day << ", " << minRecord.temp << " Celcius\n"
+        << "Maximum Temperature: Day " << maxRecord.day << ", " << maxRecord.temp << " Celcius\n"
+        << fixed << setprecision(2)
+        << "Average Temperature: " << averageTemp << " Celcius\n";
+
     
     return 0;
 }
@@ -76,11 +86,34 @@ void printTemperatures(const TemperatureRecord tempRecord[], int size)
 
 // TODO: Step 8 - Implement findMin()
 // Return the TemperatureRecord with the lowest temperature
-
+TemperatureRecord findMin(const TemperatureRecord tempRecord[], int size)
+{
+    TemperatureRecord minRecord = tempRecord[0];
+    for (int i = 1; i < size; i++)
+    {
+        if (tempRecord[i].temp < minRecord.temp)
+        {
+            minRecord = tempRecord[i];
+        }
+    }
+    return minRecord;
+}
 
 // TODO: Step 9 - Implement findMax()
 // Return the TemperatureRecord with the highest temperature
+TemperatureRecord findMax(const TemperatureRecord tempRecord[], int size)
+{
+    TemperatureRecord maxRecord = tempRecord[0];
+    for (int i = 1; i < size; ++i)
+    {
+        if (tempRecord[i].temp > maxRecord.temp)
+        {
+            maxRecord = tempRecord[i];
+        }
 
+    }
+    return maxRecord;
+}
 
 // TODO: Step 10 - Implement findAverage()
 // Compute and return the average temperature
